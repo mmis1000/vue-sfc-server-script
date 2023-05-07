@@ -2,7 +2,7 @@
 
 A actual working implementation of [this twitter post](https://twitter.com/_hyf0/status/1654521901631541251?s=20)
 
-warning: this repo acts as a material as shit post. it isn't intended for someone to actually use in prod.  
+warning: this repo acts as a material of shit post. It isn't intended for someone to actually use in prod.  
 note: the typescript checking don't actually work because i don't care.
 
 ```html
