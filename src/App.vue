@@ -59,7 +59,6 @@ export const getComplaint: () => Promise<number> = async ({ id }) => {
 import { onMounted, ref } from 'vue';
 import { useServerMethods } from '../plugin/useServerMethods';
 
-const b = 1
 const serverMethods = useServerMethods()
 const id = /^\/complaint\/(.+)$/.exec(location.pathname)?.[1]
 
