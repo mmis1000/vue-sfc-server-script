@@ -32,7 +32,7 @@ function uuidv4() {
   });
 }
 
-export const submitComplaint: () => Promise<number> = async ({ user, complaint }) => {
+export const submitComplaint = async ({ user, complaint }) => {
     const id = uuidv4()
     await db.read()
     console.log('someone added a complaint!', user, complaint)
@@ -44,7 +44,7 @@ export const submitComplaint: () => Promise<number> = async ({ user, complaint }
     await db.write()
     redirect(`/complaint/${id}`)
 }
-export const getComplaint: () => Promise<number> = async ({ id }) => {
+export const getComplaint = async ({ id }) => {
     await db.read()
     const item = db.data.complaints.find(i => i.id === id)
     if (item) {
