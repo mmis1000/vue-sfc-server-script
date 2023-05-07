@@ -1,0 +1,13 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#281880",
+        "titleBar.activeBackground": "#3822B3",
+        "titleBar.activeForeground": "#FDFCFE"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+}
